@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "ELZipArchive"
-  s.version      = "1.2.6"
+  s.version      = "1.2.7"
   s.summary      = "Objective-C wrapper of the orginial ziparchive"
 
   # This description is used to generate tags and improve search results.
@@ -92,11 +92,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.header_mappings_dir = "./minizip"
-  s.source_files  = "*.{h,mm}", "minizip/*.{h,m}"
+  s.source_files  = "*.{h,mm,m}"
   #s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "*.h", "minizip/*.h"
+  s.public_header_files = "*.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
